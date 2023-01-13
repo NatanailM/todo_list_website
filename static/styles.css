@@ -1,0 +1,94 @@
+.container {
+  padding-top: 20px;
+}
+
+.newtask {
+  position: relative;
+  padding: 30px 15px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.newtask input {
+  border-radius: 5px;
+  width: 100%;
+  height: 45px;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+}
+
+.newtask input:focus {
+  outline: none;
+  border-color: #2ac0a5;
+  width: 100%;
+}
+
+.push {
+  background-color: #2ac0a5;
+}
+
+.newtask button {
+  position: relative;
+  float: right;
+  width: 60px;
+  height: 45px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  background: #2ac0a5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.tasks {
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+.task {
+  background: #fff;
+  height: 50px;
+  padding: 5px 10px;
+  border-radius: 0px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 2px solid #d1d3d4;
+}
+
+.not-finished{
+    text-decoration: none;
+}
+
+.finished {
+    text-decoration: line-through;
+}
+
+.task-link {
+    color: black;
+}
+
+.task span {
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* Sign up */
+.signup {
+  padding: 20px;
+  margin: 50px;
+  background-color: white;
+}
