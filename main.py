@@ -8,7 +8,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "ajdsfk5SAd1vapM4"
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///./instance/todolist.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///todolist.db"
 
 db = SQLAlchemy(app)
 
